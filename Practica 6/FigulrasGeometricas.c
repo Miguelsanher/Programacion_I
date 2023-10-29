@@ -1,27 +1,27 @@
 #include<stdlib.h>
 #include<stdio.h>
 /*				(ALT-I+2)		IT-1
-			IT	EXTERIOR	INTERIOR	ALT		
---------	 1		  8	           0	 7		
+		IT	   EXTERIOR	            INTERIOR	ALT		
+--------	 1		  8	                   0	  7		
 -------*	 2		  7			   1			
-------**	 3  	  6			   2			
+------**	 3  	          6			   2			
 -----***	 4		  5	 		   3			
 ----****	 5 		  4			   4			
 ---*****	 6		  3			   5			
 --******	 7		  2	 		   6		
--******* 	 8   	  1 		   7
+-******* 	 8   	          1 		           7
 	
-			IT	EXTERIOR	INTERIOR	ALT		                  
--*******	 1		  1			   7     7
---******	 2		  2			   6	
----***** 	 3        3            5
-----****	 4        4            4
------***     5	      5            3
-------**     6        6            2 
--------*     7        7            1
---------	 8        8            0
+		IT	   EXTERIOR	        INTERIOR	ALT		                  
+-*******	 1		  1		       7          7
+--******	 2		  2		       6	
+---***** 	 3                3                    5
+----****	 4                4                    4
+-----***         5	          5                    3
+------**         6                6                    2 
+-------*         7                7                    1
+--------	 8                8                    0
 */
-/*Miguel S·nchez Hern·ndez
+/*Miguel S√°nchez Hern√°ndez
   GitHub:Miguelsanher    */
 int main(void){
 	int i,k,alt;
