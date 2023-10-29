@@ -1,16 +1,16 @@
 #include<stdlib.h>
 #include<stdio.h>
-/*Miguel S·nchez Hern·ndez
+/*Miguel S√°nchez Hern√°ndez
   GitHub:Miguelsanher    */
 int main(void){
 	int n1=1;
 	int n2=0;
 	int i,m,temp;
 	/*
-	  ----|   -----|
-	 |    |  |     |
-	 v	  | v      |
-	n1	  n2	temp
+	    -----     ----- 
+	   |      |  |      |
+	   v	  |  v      |
+	n1	   n2	  temp
 	
 	*/
 	
